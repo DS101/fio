@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  firstname_genitive: MyString
+  lastname_genitive: MyString
+  middlename_genitive: MyString
+  full_name_genitive: MyString
+
+two:
+  firstname_genitive: MyString
+  lastname_genitive: MyString
+  middlename_genitive: MyString
+  full_name_genitive: MyString
