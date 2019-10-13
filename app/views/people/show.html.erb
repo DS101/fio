@@ -25,5 +25,30 @@
   <%= @person.full_name %>
 </p>
 
+<p>
+  <strong>Full name genitive:</strong>
+  <%= @person.changed_name.full_name_genitive %>
+</p>
+
+<p>
+  <strong>Full name dative:</strong>
+  <%= @person.changed_name.full_name_dative %>
+</p>
+
+<p>
+  <strong>Full name accusative:</strong>
+  <%= @person.changed_name.full_name_accusative %>
+</p>
+
+<p>
+  <strong>Full name instrumental:</strong>
+  <%= @person.changed_name.full_name_instrumental %>
+</p>
+
+<p>
+  <strong>Full name prepositional:</strong>
+  <%= @person.changed_name.full_name_prepositional %>
+</p>
+
 <%= link_to 'Edit', edit_person_path(@person) %> |
 <%= link_to 'Back', people_path %>
